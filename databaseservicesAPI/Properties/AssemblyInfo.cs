@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("databaseservicesAPI")]
+[assembly: AssemblyTitle("DatabaseServicesAPI")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("American Airlines")]
-[assembly: AssemblyProduct("databaseservicesAPI")]
+[assembly: AssemblyProduct("DatabaseServicesAPI")]
 [assembly: AssemblyCopyright("Copyright © American Airlines 2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("ff1f31a2-03cd-4064-881c-f0e8cc1f76fb")]
+[assembly: Guid("1449290d-3947-4733-92a1-0c012b33f928")]
 
 // Version information for an assembly consists of the following four values:
 //

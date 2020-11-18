@@ -2,9 +2,9 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Net.Http.Headers;
 using System.Web.Http.Description;
-using databaseservicesAPI.Areas.HelpPage.ModelDescriptions;
+using DatabaseServicesAPI.Areas.HelpPage.ModelDescriptions;
 
-namespace databaseservicesAPI.Areas.HelpPage.Models
+namespace DatabaseServicesAPI.Areas.HelpPage.Models
 {
     /// <summary>
     /// The model that represents an API displayed on the help page.

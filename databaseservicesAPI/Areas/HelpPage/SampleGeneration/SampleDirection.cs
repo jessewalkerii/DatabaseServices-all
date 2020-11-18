@@ -1,4 +1,4 @@
-namespace databaseservicesAPI.Areas.HelpPage
+namespace DatabaseServicesAPI.Areas.HelpPage
 {
     /// <summary>
     /// Indicates whether the sample is used for request or response

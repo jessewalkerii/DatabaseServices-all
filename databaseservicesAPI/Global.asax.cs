@@ -9,7 +9,7 @@ using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
 
-namespace databaseservicesAPI
+namespace DatabaseServicesAPI
 {
     public class WebApiApplication : System.Web.HttpApplication
     {
