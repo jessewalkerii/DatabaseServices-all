@@ -1,0 +1,6 @@
+namespace databaseservicesAPI.Areas.HelpPage.ModelDescriptions
+{
+    public class SimpleTypeModelDescription : ModelDescription
+    {
+    }
+}

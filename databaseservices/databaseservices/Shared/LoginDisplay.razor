@@ -1,0 +1,11 @@
+﻿<AuthorizeView>
+    @{
+        var UserName = context.User.Identity.Name;
+        UserName = UserName.Replace("CORPAA", "QCORPAA");
+        
+        var pcontext = new PrincipalContext(ContextType.Domain, "qcorpaa.aa.com");
+        var principal = UserPrincipal.FindByIdentity(pcontext, UserName);
+        
+    }
+    Hello, @principal.GivenName @principal.Surname @UserName
+</AuthorizeView>
