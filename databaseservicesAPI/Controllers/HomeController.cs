@@ -10,7 +10,7 @@ namespace DatabaseServicesAPI.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Title = "Home Page";
+            ViewBag.Title = "EDS API Portal";
 
             return View();
         }
