@@ -12,9 +12,9 @@ namespace DatabaseServicesAPI.Controllers
     {
         Product[] products = new Product[]
         {
-            new Product { Id = 1, Name = "Tomato Soup", Category = "Groceries", Price = 1 },
-            new Product { Id = 2, Name = "Yo-yo", Category = "Toys", Price = 3.75M },
-            new Product { Id = 3, Name = "Hammer", Category = "Hardware", Price = 16.99M }
+            new Product { Id = 1, Environment = "Non-Prod", Domain = "qcorpaa.aa.com"  },
+            new Product { Id = 2, Environment = "Pre-Prod", Domain = "corpaa.aa.com" },
+            new Product { Id = 3, Environment = "Prod", Domain = "corpaa.aa.com"  }
         };
 
         public IEnumerable<Product> GetAllProducts()

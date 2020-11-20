@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using System.Net.Http.Formatting;
+using DatabaseServicesAPI.Classes;
 
 namespace DatabaseServicesAPI
 {
@@ -10,7 +12,8 @@ namespace DatabaseServicesAPI
         public static void Register(HttpConfiguration config)
         {
             // Web API configuration and services
-
+            GlobalConfiguration.Configuration.Formatters.Clear();
+            GlobalConfiguration.Configuration.Formatters.Add(new JsonMediaTypeFormatter());
             // Web API routes
             config.MapHttpAttributeRoutes();
 
